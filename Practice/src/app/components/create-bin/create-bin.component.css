@@ -1,0 +1,53 @@
+.container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h4 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 20px;
+}
+
+input[type="text"],
+textarea {
+  width: 90%;
+  text-decoration: #f3f1f1;
+  background-color: rgb(135, 207, 188);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.red-text,
+.red-text-1 {
+  color: red;
+  font-size: 14px;
+  margin-top: 1px;
+}
+
+.btn-green {
+  width: 20%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-green:disabled {
+  background-color: #bfbfbf;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.btn-green:hover:enabled {
+  opacity: 0.8;
+}
